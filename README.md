@@ -1,66 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+###  👉 Descripción
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Esta API desarrollada en Laravel consiste en un sistema de autenticación utilizando JSON Web Tokens (JWT). Cuenta con métodos para iniciar sesión de usuario, ver información del usuario autenticado, refrescar tokens expirados, registrar nuevos usuarios y cerrar sesión proporcionando una solución completa para la gestión de autenticación en aplicaciones web y móviles.
 
-## About Laravel
+### 👉 Aspectos Destacados
++ ### Seguridad con JWT
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Implementación de JSON Web Tokens para autenticación, asegurando la transmisión segura de datos y la protección contra ataques de falsificación de solicitudes entre otros.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
++ ### Métodos de Autenticación Completa
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+La API proporciona métodos para iniciar sesión, cerrar sesión, ver detalles del usuario autenticado, refrescar tokens expirados y registrar nuevos usuarios, cubriendo todos los aspectos esenciales de la autenticación.
 
-## Learning Laravel
++ ### Flexibilidad y Escalabilidad
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Diseñada con una arquitectura modular y escalable, la API puede adaptarse fácilmente a las necesidades cambiantes del proyecto y escalar para manejar un mayor volumen de usuarios y solicitudes.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 👉 Instalación
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. *composer update*
 
-## Laravel Sponsors
+### 👉 Ejecución
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. *php artisan serve*
 
-### Premium Partners
+### 👉 Images
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![BD_ANTES_CREAR_USUARIO](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/a4fdc9dc-08ec-441e-a845-a569cce26c75)
 
-## Contributing
+![USUARIO_REGISTRADO](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/e6b0b3fb-5de5-4047-8686-93f1614db233)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![BD_DESPUES_CREAR](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/3d236625-8aec-40bc-b31c-48cccbd71ebc)
 
-## Code of Conduct
+![USUARIO_AUTENTICADO](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/fac04c6f-1a84-45cb-9a39-6e840e731dc3)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![MiUsuario](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/564be78b-5039-4417-b3da-10b7cef94e07)
 
-## Security Vulnerabilities
+![NuevoToken](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/0f99d606-d156-4ac8-8f84-6934201fbc41)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![LOGOUT](https://github.com/RafaOnPC/SanctumAuth_CRUD/assets/128557603/3e4dc372-db2b-46a2-9e7e-a4fe3bb09554)
